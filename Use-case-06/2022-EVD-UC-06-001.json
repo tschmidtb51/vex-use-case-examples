@@ -45,26 +45,58 @@
             "branches": [
               {
                 "category": "product_version",
+                "name": "4.2",
+                "product": {
+                  "name": "Example Company ABC 4.2",
+                  "product_id": "CSAFPID-0001"
+                }
+              },
+              {
+                "category": "product_version",
                 "name": "2.4",
                 "product": {
-                  "name": "Example Company ABC 2.4",
-                  "product_id": "CSAFPID-0002"
+                  "product_id": "CSAFPID-0002",
+                  "name": "Example Company ABC 2.4"
                 }
               },
               {
                 "category": "product_version",
                 "name": "2.6",
                 "product": {
-                  "name": "Example Company ABC 2.6",
-                  "product_id": "CSAFPID-0003"
+                  "product_id": "CSAFPID-0003",
+                  "name": "Example Company ABC 2.6"
                 }
               },
               {
                 "category": "product_version_range",
                 "name": ">=2.9|<=4.1",
                 "product": {
-                  "name": "Example Company ABC >=2.9|<=4.1",
-                  "product_id": "CSAFPID-0004"
+                  "product_id": "CSAFPID-0004",
+                  "name": "Example Company ABC >=2.9|<=4.1"
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": ">=1.0|<=2.3",
+                "product": {
+                  "product_id": "CSAFPID-0005",
+                  "name": "Example Company ABC >=1.0|<=2.3"
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5",
+                "product": {
+                  "product_id": "CSAFPID-0006",
+                  "name": "Example Company ABC 2.5"
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": ">=2.7|<=2.8",
+                "product": {
+                  "product_id": "CSAFPID-0007",
+                  "name": "Example Company ABC >=2.7|<=2.8"
                 }
               }
             ],
@@ -79,6 +111,22 @@
                 "product": {
                   "name": "Example Company JKL >=4.5|<=5.0",
                   "product_id": "CSAFPID-0008"
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": ">=1.0|<=4.4",
+                "product": {
+                  "name": "Example Company JKL >=1.0|<=4.4",
+                  "product_id": "CSAFPID-0009"
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "5.1",
+                "product": {
+                  "product_id": "CSAFPID-0010",
+                  "name": "Example Company JKL 5.1"
                 }
               }
             ],
@@ -102,11 +150,20 @@
         }
       ],
       "product_status": {
+        "fixed": [
+          "CSAFPID-0010"
+        ],
         "known_affected": [
           "CSAFPID-0002",
           "CSAFPID-0003",
-          "CSAFPID-0004",
-          "CSAFPID-0008"
+          "CSAFPID-0004"
+        ],
+        "known_not_affected": [
+          "CSAFPID-0001",
+          "CSAFPID-0005",
+          "CSAFPID-0006",
+          "CSAFPID-0007",
+          "CSAFPID-0009"
         ]
       },
       "remediations": [
@@ -121,9 +178,22 @@
         },
         {
           "category": "vendor_fix",
-          "details": "Update to new version 5.1",
+          "details": "Update to the new version 5.1.",
           "product_ids": [
             "CSAFPID-0008"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "details": "Class with vulnerable code was removed before shipping.",
+          "product_ids": [
+            "CSAFPID-0001",
+            "CSAFPID-0005",
+            "CSAFPID-0006",
+            "CSAFPID-0007",
+            "CSAFPID-0009"
           ]
         }
       ]
