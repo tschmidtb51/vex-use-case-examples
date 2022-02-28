@@ -45,6 +45,14 @@
             "branches": [
               {
                 "category": "product_version",
+                "name": "4.2",
+                "product": {
+                  "name": "Example Company ABC 4.2",
+                  "product_id": "CSAFPID-0001"
+                }
+              },
+              {
+                "category": "product_version",
                 "name": "2.4",
                 "product": {
                   "product_id": "CSAFPID-0002",
@@ -118,6 +126,7 @@
           "CSAFPID-0004"
         ],
         "known_not_affected": [
+          "CSAFPID-0001",
           "CSAFPID-0005",
           "CSAFPID-0006",
           "CSAFPID-0007"
@@ -139,6 +148,7 @@
           "category": "impact",
           "details": "Class with vulnerable code was removed before shipping.",
           "product_ids": [
+            "CSAFPID-0001",
             "CSAFPID-0005",
             "CSAFPID-0006",
             "CSAFPID-0007"
