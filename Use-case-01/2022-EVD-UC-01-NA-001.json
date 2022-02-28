@@ -79,7 +79,7 @@
       "threats": [
         {
           "category": "impact",
-          "details": "No Java used and therefore not vulnerable.\n",
+          "details": "Class with vulnerable code was removed before shipping.",
           "product_ids": [
             "CSAFPID-0001"
           ]
