@@ -16,19 +16,19 @@
     },
     "title": "Example VEX Document Use Case 2 - Not Affected",
     "tracking": {
-      "current_release_date": "2022-02-14T11:00:00.000Z",
+      "current_release_date": "2022-03-03T11:00:00.000Z",
       "generator": {
-        "date": "2022-02-14T14:12:09.143Z",
+        "date": "2022-03-03T11:00:00.000Z",
         "engine": {
           "name": "Secvisogram",
           "version": "1.11.0"
         }
       },
       "id": "2022-EVD-UC-02-NA-001",
-      "initial_release_date": "2022-02-15T11:00:00.000Z",
+      "initial_release_date": "2022-03-03T11:00:00.000Z",
       "revision_history": [
         {
-          "date": "2022-02-15T11:00:00.000Z",
+          "date": "2022-03-03T11:00:00.000Z",
           "number": "1",
           "summary": "Initial version."
         }
