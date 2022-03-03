@@ -102,36 +102,6 @@
             ],
             "category": "product_name",
             "name": "ABC"
-          },
-          {
-            "branches": [
-              {
-                "category": "product_version_range",
-                "name": ">=4.5|<=5.0",
-                "product": {
-                  "name": "Example Company JKL >=4.5|<=5.0",
-                  "product_id": "CSAFPID-0008"
-                }
-              },
-              {
-                "category": "product_version_range",
-                "name": ">=1.0|<=4.4",
-                "product": {
-                  "name": "Example Company JKL >=1.0|<=4.4",
-                  "product_id": "CSAFPID-0009"
-                }
-              },
-              {
-                "category": "product_version",
-                "name": "5.1",
-                "product": {
-                  "product_id": "CSAFPID-0010",
-                  "name": "Example Company JKL 5.1"
-                }
-              }
-            ],
-            "category": "product_name",
-            "name": "JKL"
           }
         ],
         "category": "vendor",
@@ -150,9 +120,6 @@
         }
       ],
       "product_status": {
-        "fixed": [
-          "CSAFPID-0010"
-        ],
         "known_affected": [
           "CSAFPID-0002",
           "CSAFPID-0003",
@@ -162,8 +129,7 @@
           "CSAFPID-0001",
           "CSAFPID-0005",
           "CSAFPID-0006",
-          "CSAFPID-0007",
-          "CSAFPID-0009"
+          "CSAFPID-0007"
         ]
       },
       "remediations": [
@@ -175,13 +141,6 @@
             "CSAFPID-0003",
             "CSAFPID-0004"
           ]
-        },
-        {
-          "category": "vendor_fix",
-          "details": "Update to the new version 5.1.",
-          "product_ids": [
-            "CSAFPID-0008"
-          ]
         }
       ],
       "threats": [
@@ -192,8 +151,7 @@
             "CSAFPID-0001",
             "CSAFPID-0005",
             "CSAFPID-0006",
-            "CSAFPID-0007",
-            "CSAFPID-0009"
+            "CSAFPID-0007"
           ]
         }
       ]

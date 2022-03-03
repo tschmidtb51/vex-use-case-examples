@@ -14,7 +14,7 @@
       "name": "Example Company ProductCERT",
       "namespace": "https://psirt.example.com"
     },
-    "title": "Example VEX Document Use Case 5",
+    "title": "Example VEX Document Use Case 7",
     "tracking": {
       "current_release_date": "2022-02-08T11:00:00.000Z",
       "generator": {
@@ -24,7 +24,7 @@
           "version": "1.11.0"
         }
       },
-      "id": "2022-EVD-UC-05-001",
+      "id": "2022-EVD-UC-07-001",
       "initial_release_date": "2022-02-08T11:00:00.000Z",
       "revision_history": [
         {
@@ -102,6 +102,36 @@
             ],
             "category": "product_name",
             "name": "ABC"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": ">=4.5|<=5.0",
+                "product": {
+                  "name": "Example Company JKL >=4.5|<=5.0",
+                  "product_id": "CSAFPID-0008"
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": ">=1.0|<=4.4",
+                "product": {
+                  "name": "Example Company JKL >=1.0|<=4.4",
+                  "product_id": "CSAFPID-0009"
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "5.1",
+                "product": {
+                  "product_id": "CSAFPID-0010",
+                  "name": "Example Company JKL 5.1"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "JKL"
           }
         ],
         "category": "vendor",
@@ -120,6 +150,9 @@
         }
       ],
       "product_status": {
+        "fixed": [
+          "CSAFPID-0010"
+        ],
         "known_affected": [
           "CSAFPID-0002",
           "CSAFPID-0003",
@@ -129,7 +162,8 @@
           "CSAFPID-0001",
           "CSAFPID-0005",
           "CSAFPID-0006",
-          "CSAFPID-0007"
+          "CSAFPID-0007",
+          "CSAFPID-0009"
         ]
       },
       "remediations": [
@@ -140,6 +174,13 @@
             "CSAFPID-0002",
             "CSAFPID-0003",
             "CSAFPID-0004"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to the new version 5.1.",
+          "product_ids": [
+            "CSAFPID-0008"
           ]
         }
       ],
@@ -152,6 +193,13 @@
             "CSAFPID-0005",
             "CSAFPID-0006",
             "CSAFPID-0007"
+          ]
+        },
+        {
+          "category": "impact",
+          "details": "Log4j was not included in those versions at all.",
+          "product_ids": [
+            "CSAFPID-0009"
           ]
         }
       ]
