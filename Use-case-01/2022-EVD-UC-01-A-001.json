@@ -79,7 +79,7 @@
       "remediations": [
         {
           "category": "vendor_fix",
-          "details": "Example Company recommends updating to version 1.1 which fixes the issue.",
+          "details": "Customers should update to version 1.1 of product DEF which fixes the issue.",
           "product_ids": [
             "CSAFPID-0001"
           ]
