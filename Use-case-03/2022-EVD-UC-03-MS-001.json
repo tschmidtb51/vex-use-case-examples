@@ -45,7 +45,7 @@
             "branches": [
               {
                 "category": "product_version",
-                "name": "4.2",
+                "name": "17.4",
                 "product": {
                   "name": "Example Company GHI 17.4",
                   "product_id": "CSAFPID-0001"
