@@ -318,16 +318,7 @@
         "under_investigation": [
           "CSAFPID-0001"
         ]
-      },
-      "threats": [
-        {
-          "category": "impact",
-          "details": "Linux TCP/IP used and therefore not vulnerable.\n",
-          "product_ids": [
-            "CSAFPID-0001"
-          ]
-        }
-      ]
+      }
     },
     {
       "cve": "CVE-2020-11909",
