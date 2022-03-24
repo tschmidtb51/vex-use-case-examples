@@ -81,12 +81,62 @@
           "CSAFPID-0001"
         ]
       },
+      "references": [
+        {
+          "category": "external",
+          "summary": "NVD - CVE-2021-44228",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+        }
+      ],
       "remediations": [
         {
           "category": "none_available",
           "details": "Example Company is currently working on a fix which is expected to be ready in 06/2022.",
           "product_ids": [
             "CSAFPID-0002"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 10,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-0002"
+          ]
+        },
+        {
+          "cvss_v3": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/MC:N/MI:N/MA:N",
+            "baseScore": 10,
+            "baseSeverity": "CRITICAL",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "NONE",
+            "scope": "CHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "modifiedConfidentialityImpact": "NONE",
+            "modifiedIntegrityImpact": "NONE",
+            "modifiedAvailabilityImpact": "NONE"
+          },
+          "products": [
+            "CSAFPID-0001"
           ]
         }
       ],
@@ -101,7 +151,7 @@
       ]
     },
     {
-      "cve": "CVE-2021-44105",
+      "cve": "CVE-2021-45105",
       "notes": [
         {
           "category": "description",
@@ -117,12 +167,62 @@
           "CSAFPID-0001"
         ]
       },
+      "references": [
+        {
+          "category": "external",
+          "summary": "NVD - CVE-2021-45105",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45105"
+        }
+      ],
       "remediations": [
         {
           "category": "none_available",
           "details": "Example Company is currently working on a fix which is expected to be ready in 06/2022.",
           "product_ids": [
             "CSAFPID-0002"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-0002"
+          ]
+        },
+        {
+          "cvss_v3": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/MC:N/MI:N/MA:N",
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "attackVector": "NETWORK",
+            "attackComplexity": "HIGH",
+            "privilegesRequired": "NONE",
+            "userInteraction": "NONE",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "availabilityImpact": "HIGH",
+            "modifiedConfidentialityImpact": "NONE",
+            "modifiedIntegrityImpact": "NONE",
+            "modifiedAvailabilityImpact": "NONE"
+          },
+          "products": [
+            "CSAFPID-0001"
           ]
         }
       ],
